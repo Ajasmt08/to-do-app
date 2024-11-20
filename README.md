@@ -86,7 +86,7 @@
 
 - Database Tool: [phpMyAdmin](https://www.phpmyadmin.net/) or any MySQL client for database management.
 
- ## DB-Dumb (if needed)
+ ## DB-Dump (if needed)
  
 - Link: https://code.visualstudio.com/](https://drive.google.com/file/d/1yeMp34CzTgZrR_4yVj_dcAsgfL8HbHcU/view?usp=sharing
 
