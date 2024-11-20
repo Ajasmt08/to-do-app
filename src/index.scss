@@ -1,0 +1,91 @@
+@use "sass:map";
+@use "@picocss/pico/scss/pico" as * with (
+  $theme-color: "indigo",
+  $semantic-root-element: "#root",
+  $enable-semantic-container: true,
+  $enable-classes: false
+);
+
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+button{
+  padding: 5px 20px !important;
+}
+.error {
+  background-color: #F42C6F !important;
+  color: #fff !important;
+  border: none !important;
+}
+.completed-row{
+  background-color: #00CC88;
+  color: #fff;
+}
+.pending-row{
+  background-color: #E2E2E2;
+  color: #fff;
+}
+input:not([type=checkbox],[type=radio]), select, textarea {
+  margin-bottom: var(--pico-spacing);
+  margin-top: var(--pico-spacing);
+}
+.welcome-text {
+  margin: auto;
+  text-align: center;
+}
+.app-title {
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 30px;
+  color: indigo !important;
+}
+.main-block{
+  margin: auto;
+  max-width: 1024px;
+  margin-top: 50px;
+  text-align: center;
+  .user-login-action{
+    display: inline-block;
+    margin: 30px 10px 10px 10px;
+    padding: 10px 20px;
+  }
+  form {
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+  }
+}
+
+
+
+// Css for Add New Project and tasks
+.success-message{
+  background-color: #00A66E;
+  color: #fff;
+  padding: 20px 0px;
+  font-size: 15px;
+  z-index: 999999;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    input[type="text"] {
+      display: block;
+      margin-right: 10px;
+    }
+    button {
+      display: block;
+      margin: var(--pico-spacing);
+  }
+  }
+  .add-task-btn{
+    width: 100%;
+  }
+
