@@ -86,30 +86,4 @@
 
 - Database Tool: [phpMyAdmin](https://www.phpmyadmin.net/) or any MySQL client for database management.
 
----
-
-## Contact Information
-
-Developer: Ajas MT  
-
-Phone: 8848608920  
-
-Email: ajasmt08@gmail.com
-
-For any queries or issues related to the application, feel free to reach out.
-
----
-
-## Notes
-
-- Make sure to install all dependencies before running the app.
-
-- The backend requires proper configuration for database access (`config.php` or equivalent file).
-
-- Use npm run build for production-ready frontend builds.
-
----
-
-Happy Coding! 🚀
-
 ```
