@@ -69,7 +69,7 @@
 2. Run the Backend:
 
    ```bash
-
+   cd PHP
    php -S localhost:3000
 
    ```
